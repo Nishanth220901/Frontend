@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <p>Hi this is Nishanth Rajendran</p>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="https://media.istockphoto.com/id/935062576/vector/clipboard-with-checklist-icon-checklist-complete-tasks-to-do-list-survey-exam-concepts-best.jpg?s=1024x1024&w=is&k=20&c=zg8Z2FbooTfp2tbt9jQ2SXKMX4BD41mSbqpdeqb3GCw=" alt="Todo image"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your Task">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+<script src="./App.js"></script>
 </body>
 </html>
